@@ -1,0 +1,842 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/hexing/home/loin",
+			"style": {
+				// "navigationBarTitleText": "智汇都梁",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/hexing/index/index",
+			"style": {
+				"navigationBarTitleText": "智汇都梁",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/hexing/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/hexing/index/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/hexing/index/privacy",
+			"style": {
+				"navigationBarTitleText": "隐私政策"
+			}
+		},
+		{
+			"path": "pages/hexing/index/codeLogin",
+			"style": {
+				"navigationBarTitleText": "验证码"
+			}
+		},
+		{
+			"path": "pages/hexing/index/pwdLogin",
+			"style": {
+				"navigationBarTitleText": "密码登录"
+			}
+		},
+		{
+			"path": "pages/hexing/index/findPwd",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		},
+		
+		{
+			"path": "pages/hexing/home/transit",
+			"style": {
+				"navigationBarTitleText": "公交到达"
+			}
+		},
+		{
+			"path": "pages/hexing/home/service",
+			"style": {
+				"navigationBarTitleText": "服务中心"
+			}
+		},
+		{
+			"path": "pages/hexing/home/release",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/hexing/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/hexing/my/info",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/hexing/my/info-name",
+			"style": {
+				"navigationBarTitleText": "用户名称",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/hexing/my/myCode",
+			"style": {
+				"navigationBarTitleText": "我的二维码"
+			}
+		},
+		{
+			"path": "pages/hexing/my/set",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/hexing/my/account",
+			"style": {
+				"navigationBarTitleText": "账号安全"
+			}
+		},
+		{
+			"path": "pages/hexing/my/changeTel",
+			"style": {
+				"navigationBarTitleText": "验证当前手机"
+			}
+		},
+		{
+			"path": "pages/hexing/my/determinechangetel",
+			"style": {
+				"navigationBarTitleText": "更改手机"
+			}
+		},
+		{
+			"path": "pages/hexing/my/setPwd",
+			"style": {
+				"navigationBarTitleText": "密码设置",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/hexing/my/newMsg",
+			"style": {
+				"navigationBarTitleText": "新消息通知"
+			}
+		},
+		{
+			"path": "pages/hexing/my/about",
+			"style": {
+				"navigationBarTitleText": "关于app"
+			}
+		},
+		{
+			"path": "pages/hexing/my/myRelease",
+			"style": {
+				"navigationBarTitleText": "我的发布"
+			}
+		},
+		{
+			"path": "pages/hexing/my/myConcern",
+			"style": {
+				"navigationBarTitleText": "我的关注"
+			}
+		},
+		{
+			"path": "pages/hexing/my/concernMe",
+			"style": {
+				"navigationBarTitleText": "关注我的"
+			}
+		},
+		{
+			"path": "pages/hexing/my/authentication",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/hexing/my/match",
+			"style": {
+				"navigationBarTitleText": "我的匹配"
+			}
+		},
+		{
+			"path": "pages/hexing/my/collection",
+			"style": {
+				"navigationBarTitleText": "收藏",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ly-lq/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/ly-lq/home/system",
+			"style": {
+				"navigationBarTitleText": "系统通知",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/ly-lq/mailList/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ly-lq/mailList/myFriend",
+			"style": {
+				"navigationBarTitleText": "我的好友",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ly-lq/addFriend/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ly-lq/addFriend/sendFriendAsk",
+			"style": {
+				"navigationBarTitleText": "申请添加好友",
+				"navigationBarBackgroundColor": "#FFFFFF"
+
+
+			}
+		},
+		{
+			"path": "pages/ly-lq/mailList/friendApplication",
+			"style": {
+				"navigationBarTitleText": "好友申请",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ly-lq/mailList/blacklist",
+			"style": {
+				"navigationBarTitleText": "黑名单",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ly-lq/mailList/label",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ly-lq/mailList/myGroup",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ly-lq/mailList/addlabel",
+			"style": {
+				"navigationBarTitleText": "新建标签",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFFFFF",
+						"buttons": [{
+							"text": "完成",
+							"fontSize": "16px",
+							"color": "#1989FA",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ly-lq/chooseFriend/chooseFriend",
+			"style": {
+				"navigationBarTitleText": "选择联系人",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "完成",
+							"fontSize": "16px",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ly-lq/chooseFriend/sendGroupChat",
+			"style": {
+				"navigationBarTitleText": "发起群聊",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ly-lq/chooseFriend/groupName",
+			"style": {
+				"navigationBarTitleText": "输入群聊名称",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFFFFF",
+						"buttons": [{
+							"text": "完成",
+							"fontSize": "16px",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ly-lq/chat/index",
+			"style": {
+				"navigationBarTitleText": "聊天页",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFFFFF",
+						"buttons": [{
+							"fontSize": "50rpx",
+							"float": "right",
+							"type": "menu"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ly-lq/chat/groupMessage",
+			"style": {
+				"navigationBarTitleText": "群信息",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ly-lq/chat/friendMessage",
+			"style": {
+				"navigationBarTitleText": "好友信息",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ly-lq/chat/changeName",
+			"style": {
+				"navigationBarTitleText": "群聊名称",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFFFFF",
+						"buttons": [{
+							"text": "完成",
+							"fontSize": "16px",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ly-lq/chat/groupCode",
+			"style": {
+				"navigationBarTitleText": "群二维码",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/ly-lq/chat/groupNickName",
+			"style": {
+				"navigationBarTitleText": "群内昵称",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFFFFF",
+						"buttons": [{
+							"text": "完成",
+							"fontSize": "16px",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/ly-lq/chat/firendRemarks",
+			"style": {
+				"navigationBarTitleText": "设置备注",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"text": "完成",
+							"fontSize": "16px",
+							"color": "#1989FA",
+							"width": "60px"
+						}]
+					}
+				}
+			}
+
+
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/index",
+			"style": {
+				"navigationBarTitleText": "业委会"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/create",
+			"style": {
+				"navigationBarTitleText": "创建业委会"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/product-release/index",
+			"style": {
+				"navigationBarTitleText": "产品发布"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/product-release/release-goods",
+			"style": {
+				// "navigationBarTitleText": "发布产品",
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/product-release/goods-manage",
+			"style": {
+				"navigationBarTitleText": "产品管理"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/product-release/goods-detail",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/product-release/data-analysis",
+			"style": {
+				"navigationBarTitleText": "数据分析"
+			}
+		},
+		{
+			"path":"pages/vvo-yao/house-manage/soliciting",
+			 "style":{
+				 // "navigationBarTitleText": "录入租售信息",
+				 "navigationStyle": "custom"
+			 }
+		},
+		{
+			"path": "pages/vvo-yao/house-manage/index",
+			"style": {
+				"navigationBarTitleText": "房屋租售"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/house-manage/input-info",
+			"style": {
+				"navigationBarTitleText": "录入租售信息",
+				"navigationStyle": "custom"
+			}
+
+		},
+		{
+			"path": "pages/vvo-yao/house-manage/my-house",
+			"style": {
+				"navigationBarTitleText": "我的房产"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/house-manage/list",
+			"style": {
+				"navigationBarTitleText": "房源列表",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"text": "发布", //
+								"color": "##1989FA",
+								"fontSize": "32upx",
+								"fontWeight": "bold",
+								// "width":"40px",
+								"color": "#1989FA",
+								"marginRight": "15upx"
+							}
+						]
+					} //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/vvo-yao/house-manage/detail",
+			"style": {
+				"navigationBarTitleText": "房源详情"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/house-manage/map-room",
+			"style": {
+				"navigationBarTitleText": "地图找房"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/voting/list",
+			"style": {
+				"navigationBarTitleText": "投票列表"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/voting/voting",
+			"style": {
+				"navigationBarTitleText": "投票选举"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/voting/detail",
+			"style": {
+				"navigationBarTitleText": "投票详情"
+			}
+		},
+		{
+			"path": "pages/luyan/find/find/index",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/luyan/find/release/index",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/luyan/find/report/index",
+			"style": {
+				"navigationBarTitleText": "举报",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/luyan/onlineRepair/onlineRepair/index",
+			"style": {
+				"navigationBarTitleText": "在线报修",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/luyan/onlineRepair/addRepair/index",
+			"style": {
+				"navigationBarTitleText": "添加报修",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/luyan/onlineRepair/repairDetail/index",
+			"style": {
+				"navigationBarTitleText": "报修详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/luyan/homeSchool/homeSchool/index",
+			"style": {
+				"navigationBarTitleText": "家校沟通",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/luyan/homeSchool/addChildren/index",
+			"style": {
+				"navigationBarTitleText": "添加小孩",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/luyan/homeSchool/inviteRelatives/index",
+			"style": {
+				"navigationBarTitleText": "邀请亲人",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/luyan/homeSchool/campusNotice/index",
+			"style": {
+				"navigationBarTitleText": "校园通告",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/luyan/homeSchool/noticeDetails/index",
+			"style": {
+				"navigationBarTitleText": "通告详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/luyan/homeSchool/studentLeave/index",
+			"style": {
+				"navigationBarTitleText": "学生请假",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/luyan/homeSchool/leaveRecord/index",
+			"style": {
+				"navigationBarTitleText": "请假记录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/luyan/homeSchool/leaveDetail/index",
+			"style": {
+				"navigationBarTitleText": "请假详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/luyan/homeSchool/contactTeacher/index",
+			"style": {
+				"navigationBarTitleText": "联系老师",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/luyan/homeSchool/schoolScribing/index",
+			"style": {
+				"navigationBarTitleText": "学区划片",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/luyan/homeSchool/schoolDetail/index",
+			"style": {
+				"navigationBarTitleText": "学校详情",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}, {
+			"path": "pages/luyan/homeSchool/currentCourse/index",
+			"style": {
+				"navigationBarTitleText": "本期课程",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/luyan/user/info",
+			"style": {
+				"navigationBarTitleText": "用户信息",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/vvo-yao/product-release/order-managemwnt",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/jyx/company",
+			"style": {
+				"navigationBarTitleText": "企业查询"
+				
+			}
+		},
+		{
+			"path": "pages/jyx/company-info",
+			"style": {
+				"navigationBarTitleText": "企业查询"
+			}
+		},
+		{
+			"path": "pages/jyx/company-infolist",
+			"style": {
+				// "navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/jyx/keyPersonnel",
+			"style": {
+				"navigationBarTitleText": "主要人员"
+			}
+		},
+		{
+			"path": "pages/jyx/shareholderInfo",
+			"style": {
+				"navigationBarTitleText": "股东信息"
+			}
+		},
+		{
+			"path": "pages/jyx/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/jyx/myenterprise",
+			"style": {
+				"navigationBarTitleText": "我的企业"
+			}
+		},
+		{
+			"path": "pages/jyx/myfocus",
+			"style": {
+				"navigationBarTitleText": "我的关注"
+			}
+		},
+		{
+			"path": "pages/jyx/community",
+			"style": {
+				"navigationBarTitleText": "社区消息"
+			}
+		},
+		{
+			"path": "pages/jyx/community-details",
+			"style": {
+				"navigationBarTitleText": "社区消息详情"
+			}
+		},
+		{
+			"path": "pages/jyx/community-info",
+			"style": {
+				"navigationBarTitleText": "消息详情"
+			}
+		},
+		{
+			"path": "pages/jyx/upgrade",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/index",
+			"style": {
+				"navigationBarTitleText": "业委会"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/create",
+			"style": {
+				"navigationBarTitleText": "创建业委会"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/IndustryCommittee",
+			"style": {
+				"navigationBarTitleText": "业委会"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/complaint",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/release",
+			"style": {
+				"navigationBarTitleText": "发布投诉建议"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/publicity",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh":true
+			}
+			
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/details",
+			"style": {
+				"navigationBarTitleText": "公示详情"
+			}
+		},
+		{
+			"path": "pages/vvo-yao/industry-council/issue",
+			"style": {
+				"navigationBarTitleText": "发布公示"
+			}
+		},
+		{
+			"path": "pages/luyan/onlineRepair/opportunities/index",
+			"style": {
+				"navigationBarTitleText": "业务机会"
+			}
+		},
+		{
+			"path":"pages/vvo-yao/industry-council/quarters",
+			"style":{
+				"navigationBarTitleText":"小区信息"
+			}
+		}
+	],
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#1989FA",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/hexing/home/home",
+			"iconPath": "static/hexingImg/home1.png",
+			"selectedIconPath": "static/hexingImg/home2.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/ly-lq/home/home",
+			"iconPath": "static/hexingImg/msg1.png",
+			"selectedIconPath": "static/hexingImg/msg2.png",
+			"text": "消息"
+		}, {
+			"pagePath": "pages/luyan/find/find/index",
+			"iconPath": "static/hexingImg/find1.png",
+			"selectedIconPath": "static/hexingImg/find2.png",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/hexing/my/my",
+			"iconPath": "static/hexingImg/my1.png",
+			"selectedIconPath": "static/hexingImg/my2.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "智汇都梁",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	}
+}
+

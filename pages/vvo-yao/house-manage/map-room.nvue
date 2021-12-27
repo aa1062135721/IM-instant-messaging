@@ -1,0 +1,116 @@
+<template>
+	<view class="container">
+		<map id="map" class="mapstyle" :latitude="latitude" :longitude="longitude" :markers="covers"></map>
+		<view class="bottomview">
+			<view class="bottomleft">
+				<text class="bottomlefttext">出租</text>
+			</view>
+			<view class="bottomright">
+				<text class="bottomrighttext">出售</text>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				mapObj: null,
+				latitude: uni.getStorageSync('ay_latitude'),
+				longitude: uni.getStorageSync('ay_longitude'),
+				covers:[
+					{
+						latitude: uni.getStorageSync('ay_latitude'),
+						longitude: uni.getStorageSync('ay_longitude'),
+						width: 30,
+						height: 30,
+						iconPath: '/static/images/vvo-yao/mylocation.png' ,// 当前位置图标
+					}
+				]
+			}
+		},
+		onLoad() {
+			// console.log(uni.getStorageSync('ay_latitude'),'latitude')
+			// console.log(uni.getStorageSync('ay_longitude'),'longitude')
+			// 实例化地图
+			this.mapObj = uni.createMapContext('map', this)
+		},
+		onShow() {
+			
+		},
+		methods: {
+			/**
+			 * 初始化地图组件并定位到当前位置
+			 */
+			init_loactionMap() {
+				uni.getLocation({
+					type: 'gcj02',
+					success: (res) => {
+						this.latitude = res.latitude
+						this.longitude = res.longitude
+					}
+				});
+			}
+		}
+	}
+</script>
+
+<style scoped>
+	.container {
+		flex: 1;
+		width: 750rpx;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.mapstyle {
+		width: 750rpx;
+		flex: 1;
+	}
+	
+	.bottomview {
+		width: 750rpx;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		padding: 32rpx;
+	}
+	.bottomleft {
+		flex: 1;
+		background-color: #1989FA;
+		border-radius: 8rpx;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 328rpx;
+		height: 88rpx;
+		margin-right: 32rpx;
+	}
+		
+	.bottomlefttext {
+		font-size: 32rpx;
+		color: #FFFFFF;
+	}
+		
+	.bottomright {
+		flex: 1;
+		border-radius: 8rpx;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 328rpx;
+		height: 88rpx;
+		border-width: 2rpx;
+		border-style: solid;
+		border-color: #1989FA;
+		
+	}
+	.bottomrighttext {
+		font-size: 32rpx;
+		color: #1989FA;
+	}
+		
+</style>

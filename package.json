@@ -1,0 +1,20 @@
+{
+    "id": "ming-picker",
+    "name": "底部选择器！地区选择器！三级地区选择器，包含澳门、台湾、xiang港！可默认选中",
+    "version": "1.0.1",
+    "description": "独立封装的三级地区选择器，可默认选中某个地区。包含澳门、台湾、xiang港地区！细选到区级！独立组件 picker 底部选择器 省市区选择器 h5 小程序 安卓APP IOS",
+    "keywords": [
+        "选择器",
+        "三级选择器",
+        "默认选中选择器",
+        "澳门",
+        "xiang港，台湾选择器"
+    ],
+    "dependencies": {
+        "js-md5": "^0.7.3",
+        "js-pinyin": "^0.1.9",
+        "tim-js-sdk": "^2.15.0",
+        "tim-upload-plugin": "^1.0.3",
+        "tim-wx-sdk": "^2.15.0"
+    }
+}
